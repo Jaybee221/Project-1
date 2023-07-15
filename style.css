@@ -1,0 +1,43 @@
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 16px 32px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 100px;
+}
+.btn:hover,
+.btn:active {
+  background-color: #099268;
+  box-shadow: 5px 5px 5px #087f5b;
+}
+.btn--big {
+  font: size 14px;
+  padding: 16px 32px;
+}
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+/* HEADER */
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 64px;
+}
+
+.header-text-box {
